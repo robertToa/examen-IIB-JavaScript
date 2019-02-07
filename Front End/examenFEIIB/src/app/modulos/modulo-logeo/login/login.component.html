@@ -1,0 +1,54 @@
+<div>
+  <h1>LOGIN</h1>
+</div>
+<div>
+  <form #formularioLogin="ngForm"
+        novalidate
+        (submit)="logearse(formularioLogin)">
+    <div>
+      <label for="username">
+        Username
+      </label>
+      <input id="username" type="text" required name="username"
+             placeholder="username" maxlength="12"
+             [(ngModel)]="username" #inputUsername="ngModel"
+      >
+    </div>
+      <div style="color: red; font-size: 12px;" *ngIf="inputUsername.errors">
+        Username error:
+        <br>
+        <span *ngIf="inputUsername.errors.required">
+         username es requerido
+       </span>
+      </div>
+    <div>
+      <label for="password">
+        Password
+      </label>
+      <input id="password" type="password" required  maxlength="12" name="password"
+             [(ngModel)]="password"
+             placeholder="password"
+             #inputPassword="ngModel">
+    </div>
+    <div>
+      <div  style="color: red; font-size: 12px;" *ngIf="inputPassword.errors">
+        Password error:
+        <br>
+        <span *ngIf="inputPassword.errors.required">
+         password es requerido
+       </span>
+      </div>
+    </div>
+    <div>
+      <button id="buttonLogin" [disabled]="formularioLogin.invalid">
+        Log In
+      </button>
+    </div>
+  </form>
+</div>
+<div>
+  <a routerLink="/registrar">
+    <button>Registrarse</button>
+  </a>
+</div>
+

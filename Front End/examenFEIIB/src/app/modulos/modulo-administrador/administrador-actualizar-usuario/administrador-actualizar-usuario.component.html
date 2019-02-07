@@ -1,0 +1,11 @@
+<div>
+  <h1>Actualizar</h1>
+</div>
+<div *ngIf="usuarioActualizar">
+  <app-form-usuario
+    [UsuarioAux]="usuarioActualizar"
+    [nombreButtonAux]="'Actualizar'"
+    (formularioValido)="actualizarUsuario($event)"
+  >
+  </app-form-usuario>
+</div>

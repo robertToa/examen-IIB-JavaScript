@@ -1,0 +1,35 @@
+<div>
+  <h3 style="text-align: center">Eventos y Medicamentos</h3>
+</div>
+<div>
+  <table style="width: 90%">
+    <tr>
+      <th>Identificador</th>
+      <th>Nombre del Evento</th>
+      <th>Nombre del Medicaemnto</th>
+      <th>Accion</th>
+    </tr>
+    <tr *ngFor="let evenMed of eventosMedicaemntos" style="text-align: center">
+      <td>{{evenMed.id}}</td>
+      <td>
+        <div *ngIf="evenMed.idEvento">
+          {{evenMed.idEvento.nombre}}
+        </div>
+        <div *ngIf="!evenMed.idEvento">
+          Sin evento
+        </div>
+      </td>
+      <td >
+        <div *ngIf="evenMed.idMedicamento">
+          {{evenMed.idMedicamento.nombre}}
+        </div>
+        <div *ngIf="!evenMed.idMedicamento">
+          Sin medicamento
+        </div>
+      </td>
+      <td>
+        <button (click)="eliminar(evenMed.id)" >Eliminar</button>
+      </td>
+    </tr>
+  </table>
+</div>

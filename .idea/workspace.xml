@@ -15,89 +15,134 @@
     <session id="396528777">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="31" />
+          <entry key="html" value="141" />
+          <entry key="js" value="74" />
+          <entry key="json" value="2" />
+          <entry key="scss" value="11" />
+          <entry key="ts" value="236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="31" />
+          <entry key="HTML" value="141" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="74" />
+          <entry key="SCSS" value="11" />
+          <entry key="TypeScript" value="236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1801" />
+          <entry key="html" value="7718" />
+          <entry key="js" value="2603" />
+          <entry key="json" value="5" />
+          <entry key="scss" value="232" />
+          <entry key="ts" value="16515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1801" />
+          <entry key="HTML" value="7718" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="2603" />
+          <entry key="SCSS" value="232" />
+          <entry key="TypeScript" value="16515" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="Angular2LanguageService" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Paciente.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/EventoPorMedicamento.js">
+        <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-evento/form-evento.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Usuario.js">
+        <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-evento/form-evento.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Medicamento.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="279">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Rol.js">
+        <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-actualizar/evento-actualizar.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Evento.js">
+        <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-actualizar/evento-actualizar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="262">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-crear/evento-crear.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>F</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,14 +150,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/config/datastores.js" />
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/models/RolesPorUsuario.js" />
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/models/Usuario.js" />
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/models/Paciente.js" />
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/models/EventoPorMedicamento.js" />
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/models/Evento.js" />
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/models/Medicamento.js" />
-        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/models/Rol.js" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/usuario-main/usuario-main.component.scss" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-todos/evento-visualizar/evento-visualizar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-visualizar/evento-visualizar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-ver/evento-ver.component.scss" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-ver/evento-ver.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-usuario/form-usuario.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-administrador/administrador-actualizar-usuario/administrador-actualizar-usuario.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-actualizar/evento-actualizar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-evento/form-evento.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-crear/evento-crear.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-evento/form-evento.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-actualizar/evento-actualizar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/Evento-Rest/evento-rest-service.service.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-ver/evento-ver.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/Interfaces/medicamento.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/medicamento-Rest/medicamento-rest-service.service.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/Interfaces/paciente.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-visualizar/medicamento-visualizar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-visualizar/medicamento-visualizar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-crear/medicamento-crear.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-actualizar/medicamento-actualizar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-crear/medicamento-crear.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-actualizar/medicamento-actualizar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-medicamento/form-medicamento.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-medicamento/form-medicamento.component.ts" />
+        <option value="$PROJECT_DIR$/Back End/examenBEIIB/api/controllers/EventoController.js" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-crear/evento-crear.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-actualizar/paciente-actualizar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-actualizar/paciente-actualizar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-visualizar/paciente-visualizar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-visualizar/paciente-visualizar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-paciente/form-paciente.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-crear/paciente-crear.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-paciente/form-paciente.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/paciente-Rest/paciente-rest-service.service.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-crear/paciente-crear.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-visitante/visitante-main/visitante-main.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-visitante/visitante-main/visitante-main.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/usuario-main/usuario-main.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-visualizar/evento-medica-visualizar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/Evento-Medicaemento-Rest/evento-medicamento-rest-service.service.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medicamento-main/evento-medicamento-main.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-visualizar/evento-medica-visualizar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-agregar/evento-medica-agregar.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-agregar/evento-medica-agregar.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/registarse/registarse.component.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/Servicio-Rest/usuario-rest-service.service.ts" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/registarse/registarse.component.html" />
+        <option value="$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/login/login.component.ts" />
       </list>
     </option>
   </component>
@@ -172,15 +260,76 @@
             <path>
               <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Back End" type="462c0819:PsiDirectoryNode" />
-              <item name="examenBEIIB" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Servicios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="Evento-Medicaemento-Rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="medicamento-Rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examen-IIB-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examen-IIB-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="examenFEIIB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="Servicio-Rest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,6 +341,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="D:\semestres U\octavo semestre\javascript\examenes\examen IIB\examen-IIB-JavaScript\Front End\examenFEIIB\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,31 +365,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549202410752</updated>
-      <workItem from="1549202413903" duration="6332000" />
+      <workItem from="1549202413903" duration="26515000" />
+      <workItem from="1549283689229" duration="24953000" />
+      <workItem from="1549322027445" duration="7143000" />
+      <workItem from="1549388845301" duration="36610000" />
+      <workItem from="1549456733016" duration="10913000" />
+      <workItem from="1549499066348" duration="12598000" />
+      <workItem from="1549541962727" duration="6826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6332000" />
+    <option name="totallyTimeSpent" value="125558000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24851191" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3184524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.5262295" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49925596" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985119" weight="0.53770494" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5014881" side_tool="true" weight="0.53770494" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -271,59 +437,384 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/config/datastores.js">
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-medicamento/form-medicamento.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/RolesPorUsuario.js">
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-medicamento/form-medicamento.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="551">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-actualizar/paciente-actualizar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-actualizar/paciente-actualizar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/controllers/PacienteController.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Paciente.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="92">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Usuario.js">
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-crear/paciente-crear.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-visualizar/paciente-visualizar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-crear/medicamento-crear.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-crear/evento-crear.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-visualizar/paciente-visualizar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-paciente/form-paciente.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-paciente/form-paciente.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/Interfaces/paciente.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/paciente-Rest/paciente-rest-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-paciente/paciente-crear/paciente-crear.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-visitante/visitante-main/visitante-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-administrador/administrador-main/administrador-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-visitante/visitante-main/visitante-main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-administrador/administrador-main/administrador-main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Evento.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/EventoPorMedicamento.js">
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/guards/is-administrador-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/Interfaces/evento-medicamento-interface.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Medicamento.js">
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/Evento-Rest/evento-rest-service.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="630">
+          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Rol.js">
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-medicamento/medicamento-visualizar/medicamento-visualizar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/Evento-Medicaemento-Rest/evento-medicamento-rest-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-visualizar/evento-medica-visualizar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-visualizar/evento-medica-visualizar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-agregar/evento-medica-agregar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medica-agregar/evento-medica-agregar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/Servicio-Rest/usuario-rest-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/Servicios/medicamento-Rest/medicamento-rest-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back End/examenBEIIB/api/models/Usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/registarse/registarse.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/registarse/registarse.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-404/noencontrado-main/noencontrado-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-404/noencontrado-main/noencontrado-main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medicamento-main/evento-medicamento-main.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-evento-medicamento/evento-medicamento-main/evento-medicamento-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/usuario-main/usuario-main.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="168" column="50" lean-forward="true" selection-start-line="168" selection-start-column="50" selection-end-line="168" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-ver/evento-ver.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/usuario-main/usuario-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-logeo/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-evento/form-evento.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/componentes/form-evento/form-evento.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-actualizar/evento-actualizar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-crear/evento-crear.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front End/examenFEIIB/src/app/modulos/modulo-usuario/modulo-evento/evento-actualizar/evento-actualizar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>

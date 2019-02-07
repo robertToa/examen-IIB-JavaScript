@@ -1,0 +1,45 @@
+<div >
+  <form #formularioPaciente="ngForm"
+        novalidate
+        (submit)="emitirFormulario(formularioPaciente)">
+    <div>
+      <input id="nombrePaciente" type="text" required name="nombrePaciente"
+             placeholder="nombres del paciente" maxlength="30"
+             [(ngModel)]="paciente.nombres" #inputNombre="ngModel">
+    </div>
+    <div>
+      <input id="apellidoPaciente" type="text" required name="apellidoPaciente"
+             placeholder="apellidos del paciente" maxlength="30"
+             [(ngModel)]="paciente.apellidos" #inputNombre="ngModel">
+    </div>
+    <div>
+      <input id="hijos" type="number" name="hijos"
+             placeholder="numero de hijos" maxlength="5"
+             [(ngModel)]="paciente.hijos" #inputFecha="ngModel">
+    </div>
+    <div>
+      <input id="fecha" type="date" name="fecha"
+             placeholder="Fecha de nacimiento" maxlength="12"
+             [(ngModel)]="paciente.fechaNacimiento" #inputLatitud="ngModel">
+    </div>
+    <div>
+      <label for="seguro">Tienes Seguro</label>
+      <div>
+        <input id="seguro" type="radio" name="seguro" [value]="true"
+               [(ngModel)]="paciente.tieneSeguro"> Femenino
+      </div>
+      <div>
+        <input id="seguro1" type="radio" name="seguro" [value]="false"
+               placeholder="Tiene seguro" maxlength="12"
+               [(ngModel)]="paciente.tieneSeguro">Masculino
+      </div>
+
+    </div>
+    <div>
+      <button [disabled]="formularioPaciente.invalid">
+        {{nombreButton}}
+      </button>
+    </div>
+  </form>
+
+</div>

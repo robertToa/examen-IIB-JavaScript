@@ -1,0 +1,45 @@
+<br>
+<div style="padding: 10px">
+  <div style="float: left; width: 90%">
+    <div>
+      <a routerLink="/Usuario/crearMedicamento">
+        <button> Crear Medicamento</button>
+      </a>
+    </div>
+    <br>
+    <div>
+      <table style="width: 80%">
+        <tr>
+          <h3>Medicamentos</h3>
+        </tr>
+        <tr>
+          <th> Nombre</th>
+          <th> Composicion </th>
+          <th> Uso</th>
+          <th> numero Pastilla</th>
+          <th> Fecha caducidad</th>
+          <th> Paciente</th>
+        </tr>
+        <tr *ngFor="let medicamento of medicamentos">
+          <th>{{medicamento.nombre}}</th>
+          <th>{{medicamento.composicion}}</th>
+          <th>{{medicamento.usadoPara}}</th>
+          <th>{{medicamento.numeroPastillas}}</th>
+          <th>{{medicamento.fechaCaducidad}}</th>
+          <div *ngIf="medicamento.idPaciente">
+            <th>{{medicamento.idPaciente.nombres}}</th>
+          </div>
+          <div *ngIf="!medicamento.idPaciente">
+            <th></th>
+          </div>
+          <th>
+            <a [routerLink]="['/Usuario','actualizarMedicamento',medicamento.id]">
+              <button>Actualizar</button>
+            </a>
+            <button (click)="eliminarMedicamento(medicamento.id)" >Eliminar</button>
+          </th>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

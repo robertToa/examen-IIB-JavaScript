@@ -1,0 +1,9 @@
+
+<div *ngIf="pacienteActualizar">
+  <app-form-paciente
+    [pacienteAux]="pacienteActualizar"
+    [nombreButtonAux]="'Actualizar'"
+    (formularioValido)="actualizarPaciente($event)"
+  >
+  </app-form-paciente>
+</div>

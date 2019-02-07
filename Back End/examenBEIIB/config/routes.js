@@ -20,6 +20,10 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
+  'POST /Usuario/login': 'UsuarioController.login',
+  'POST /RolesPorUsuario/rolesUsuarioById': 'RolesPorUsuarioController.rolesporusuarioId',
+  'POST /EventoPorMedicamento/Medicamentos': 'EventoPorMedicamentoController.medicamentos',
+  'POST /RolesPorUsuario/rolesUsuario': 'RolesPorUsuarioController.rolesUsuario',
 
 
   /***************************************************************************

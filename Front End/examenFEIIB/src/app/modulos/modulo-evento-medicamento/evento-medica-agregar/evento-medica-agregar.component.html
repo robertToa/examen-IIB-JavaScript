@@ -1,0 +1,48 @@
+<div>
+  <h3 style="text-align: center">Agregar Evento y Medicamentos</h3>
+</div>
+<div style="padding-left: 20px; padding-bottom: 5px">
+  <button (click)="crearEventMedicaa()">Crear</button>
+</div>
+<div>
+  <div style="float: left; width: 50%;padding-right: 10px">
+    <label> Id Evento: </label>
+    <span>{{eventoSeleccionado}}</span>
+    <div style="padding-top: 5px">
+      <table style="width: 90%">
+        <tr>
+          <th>Id Evento</th>
+          <th>Nombre Evento</th>
+          <th>Fecha Evento</th>
+          <th>Accion</th>
+        </tr>
+        <tr *ngFor="let evento of eventos">
+          <td>{{evento.id}}</td>
+          <td>{{evento.nombre}}</td>
+          <td>{{evento.fecha}}</td>
+          <td><button (click)="agregarEvento(evento.id)" >Agregar</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div style="float: left; width: 50%; padding-right: 5px">
+    <label> Id Medicamento: </label>
+    <span>{{medicamentoSeleccionao}}</span>
+    <div style="padding-top: 5px">
+      <table style="width: 90%">
+        <tr>
+          <th>Id Medicamento</th>
+          <th>Nombre Medicamento</th>
+          <th>Uso Medicamento</th>
+          <th>Accion</th>
+        </tr>
+        <tr *ngFor="let medicamento of medicaemntos">
+          <td>{{medicamento.id}}</td>
+          <td>{{medicamento.nombre}}</td>
+          <td>{{medicamento.usadoPara}}</td>
+          <td><button (click)="agregarMedicamento(medicamento.id)" >Agregar</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

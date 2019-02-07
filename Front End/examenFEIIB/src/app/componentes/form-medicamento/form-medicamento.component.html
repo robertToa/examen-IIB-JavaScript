@@ -1,0 +1,77 @@
+<div >
+  <form #formularioMedicamento="ngForm"
+        novalidate
+        (submit)="emitirFormulario(formularioMedicamento)">
+
+    <div>
+      <input id="nombreMedicamento" type="text" required name="nombreMedicaemntos"
+             placeholder="nombre del medicaemnto" maxlength="30"
+             [(ngModel)]="medicaemento.nombre" #inputNombre="ngModel">
+    </div>
+    <div>
+      <input id="composicion" type="text" required name="composicion"
+             placeholder="Composicion del medicamento"  maxlength="20"
+             [(ngModel)]="medicaemento.composicion" #inputComposicion="ngModel">
+    </div>
+    <div>
+      <input id="uso" type="text" required name="uso"
+             placeholder="Para que se usa"  maxlength="60"
+             [(ngModel)]="medicaemento.usadoPara" #inputUso="ngModel">
+    </div>
+    <div>
+      <input id="numeroPastilla" type="number" required name="numeroPastilla"
+             placeholder="Numero de pastillas"  maxlength="5"
+             [(ngModel)]="medicaemento.numeroPastillas" #inputNumPast="ngModel">
+    </div>
+    <div>
+      <input id="fecha" type="date" required name="fecha"
+             placeholder="fecha de caducidad"  maxlength="40"
+             [(ngModel)]="medicaemento.fechaCaducidad" #inputFecha="ngModel">
+    </div>
+    <div>
+      <input id="gramosIngerir" type="number" required name="gramosIngerir"
+             placeholder="Gramos a ingerir" maxlength="12"
+             [(ngModel)]="medicaemento.gramosIngerir" #inputGramos="ngModel">
+    </div>
+    <div *ngIf="medicaemento.idPaciente">
+      <input id="idPaciente" type="text" name="idPaciente"
+             maxlength="12"
+             [disabled]="true"
+             [(ngModel)]="medicaemento.idPaciente" #inputGramos="ngModel">
+    </div>
+    <div *ngIf="!medicaemento.idPaciente">
+      <input id="idPacienteS" type="text" name="idPacienteS"
+             placeholder="Seleccione el paciente en el combo" maxlength="12"
+             [disabled]="true"
+             [(ngModel)]="medicaemento.idPaciente" #inputGramos="ngModel">
+    </div>
+    <div>
+      <button [disabled]="formularioMedicamento.invalid">
+        {{nombreButton}}
+      </button>
+    </div>
+  </form>
+  <div>
+    <h3>Pacientes</h3>
+    <select [(ngModel)]="idPacAux" (mouseup)="agreagrPaciente()">
+      <option>  </option>
+      <option *ngFor="let paciente of pacientes">{{paciente.id}}</option>
+    </select>
+  </div>
+</div>
+
+<div>
+  <table>
+    <tr>
+      <th>Id Paciente</th>
+      <th>Nombre Paciente</th>
+      <th>Apellido Paciente</th>
+    </tr>
+    <tr *ngFor="let paciente of pacientes">
+      <td>{{paciente.id}}</td>
+      <td>{{paciente.nombres}}</td>
+      <td>{{paciente.apellidos}}</td>
+    </tr>
+  </table>
+</div>
+

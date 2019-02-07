@@ -1,0 +1,35 @@
+<div>
+  <h1>Registrarse</h1>
+</div>
+<div>
+  <form #formularioLogin="ngForm"
+        novalidate
+        (submit)="registarse(formularioLogin)">
+
+    <div>
+      <input id="username" type="text" required name="username"
+             placeholder="username" maxlength="12"
+             [(ngModel)]="usuario.nombre" #inputUsername="ngModel">
+    </div>
+    <div>
+      <input id="correo" type="email" required name="correo"
+             placeholder="correo@dominio.region"  maxlength="27"
+             [(ngModel)]="usuario.correo" #inputUsername="ngModel">
+    </div>
+    <div>
+      <input id="fechanacimiento" type="date" required name="fechanacimeinto"
+             placeholder="Fecha Nacimiento" maxlength="12"
+             [(ngModel)]="usuario.fechaNacimiento" #inputfecha="ngModel">
+    </div>
+    <div>
+      <input id="password" type="password" required name="password"
+             placeholder="password" maxlength="12"
+             [(ngModel)]="usuario.password" #inputPassword="ngModel">
+    </div>
+    <div>
+      <button id="buttonLogin" [disabled]="formularioLogin.invalid">
+        Registrar
+      </button>
+    </div>
+  </form>
+</div>

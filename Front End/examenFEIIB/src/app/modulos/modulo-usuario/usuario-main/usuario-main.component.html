@@ -1,0 +1,46 @@
+<div style="padding: 5px">
+  <div style="float: left">
+    <h1>Ventana del Usuario</h1>
+  </div>
+  <div style="float: right; padding-right: 200px; padding-top: 30px">
+    <button (click)="salir()" >Log Out</button>
+  </div>
+</div>
+<br><br>
+<div>
+  <br>
+</div>
+<div>
+  <br>
+  <ul>
+    <li>
+      <a routerLink="gestionPaciente">
+        <button>Gestion de Pacientes</button>
+      </a>
+    </li>
+    <li>
+      <a routerLink="gestionMedico">
+        <button>Gestion de Medicamentos</button>
+      </a>
+    </li>
+    <li>
+      <a routerLink="gestionEvento">
+        <button>Gestion de Eventos</button>
+      </a>
+    </li>
+    <li>
+      <a routerLink="Eventos">
+        <button>Eventos</button>
+      </a>
+    </li>
+    <li>
+      <a routerLink="eventMedica">
+        <button>Evento-Medicamento</button>
+      </a>
+    </li>
+  </ul>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+

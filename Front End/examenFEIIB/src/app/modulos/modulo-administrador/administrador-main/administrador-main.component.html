@@ -1,0 +1,33 @@
+<div style="text-align: center; padding: 10px">
+  <div style="float: left">
+    <h1>Ventanas del Administrador</h1>
+  </div>
+  <div style="float: right; padding: 30px">
+    <button pButton type="button" label="Log Out" class="ui-button-info" (click)="salir()">
+    </button>
+  </div>
+</div>
+<br>
+<div>
+  <br><br>
+</div>
+<div>
+  <br>
+  <a routerLink="Usuarios">
+    <button>Gestion de Usuario</button>
+  </a>
+  <a routerLink="Eventos">
+    <button>Eventos</button>
+  </a>
+</div>
+<div>
+  <br>
+</div>
+<div>
+  <router-outlet></router-outlet>
+
+</div>
+
+
+
+

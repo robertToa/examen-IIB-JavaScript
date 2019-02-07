@@ -1,0 +1,39 @@
+<br>
+<div style="padding: 10px">
+  <div style="float: left; width: 70%">
+    <div>
+      <a routerLink="/Usuario/crearPaciente">
+        <button> Crear Paciente</button>
+      </a>
+    </div>
+    <br>
+    <div>
+      <table style="width: 80%">
+        <tr>
+          <h3>Pacientes</h3>
+        </tr>
+        <tr>
+          <th> Nombres</th>
+          <th> Apellido </th>
+          <th> Fecha Nacimiento</th>
+          <th> Hijos</th>
+          <th> Segurp</th>
+          <th> Acciones</th>
+        </tr>
+        <tr *ngFor="let paciente  of pacientes">
+          <th>{{paciente.nombres}}</th>
+          <th>{{paciente.apellidos}}</th>
+          <th>{{paciente.fechaNacimiento}}</th>
+          <th>{{paciente.hijos}}</th>
+          <th>{{paciente.tieneSeguro}}</th>
+          <th>
+            <a [routerLink]="['/Usuario','actualizarPaciente',paciente.id]">
+              <button>Actualizar</button>
+            </a>
+            <button (click)="eliminarPaciente(paciente.id)" >Eliminar</button>
+          </th>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
